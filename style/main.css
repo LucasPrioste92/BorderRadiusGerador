@@ -1,0 +1,120 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(138,147,182,1) 35%, rgba(100,135,158,1) 100%);
+}
+.inicio{
+    padding-top: 15px;
+    padding-bottom: 35px;
+    color: #ffffff;
+}
+.inicio img{
+    height: 200px;
+    width: 200px;
+    margin-left: 2.5%;
+    min-width: 50px;
+    min-width: 50px;
+} 
+.picotado{
+    height: 350px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dashed #fff;
+    margin-top: 8px;
+    padding: 0px !important; 
+}
+.sliderVertical {
+    margin-top: 10px;
+    -webkit-appearance: slider-vertical;
+    width: 10px;
+    height: 350px;
+}
+.sliderHorizontal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 10px;
+    
+}
+.horizontal{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+.baixo{
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.gerador{
+    width: 800px !important;
+    height: 450px !important;
+}
+.gerado{
+    margin: auto;
+    margin-top: 2px;
+    height: 335px;
+    width: 335px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(241,76,0,1) 60%);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+}
+.valores{
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 16px;
+    border: 5px solid #000000;
+}
+.caixa{
+    padding-top: 13px;
+}
+button{
+    background-color: #727272; /* Green */
+    border: none;
+    color: white;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+    border-radius: 16px;
+}
+button:hover{
+        background-color: #000;
+      /*  Making button bigger on hover  */
+        transform: scale(1.2) perspective(3px);
+}
+#copiar{
+    border: none;
+    width: 300px;
+}
+@media screen and (max-width: 450px) {
+    .sliderVertical {
+        margin-top: 5px;
+        -webkit-appearance: slider-vertical;
+        width: 10px;
+        height: 200px;
+    }
+    .sliderHorizontal{
+        width: 200px;
+        height: 10px;
+    }
+    .horizontal{
+        margin-left: 0px;
+        margin-right: auto;
+        padding-bottom: 20px;
+    }
+    .picotado{
+        height: 200px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px dashed #fff;
+        margin-top: 8px;
+        padding: 0px !important; 
+    }
+    .gerador{
+        width: auto !important;
+        height: 500px !important;
+    }
+}    

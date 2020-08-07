@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <title>Gerador BorderRadius</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="imagens/iconSite.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="inicio  text-center">
+        <img src="imagens/iconSite.png" alt="Imagem Simbolo">
+        <h1>Gerador de BorderRadius</h1>
+        <p>O Objetivo é Gerar e Visualizar BorderRadius, e poder copiar os valores associados, para agilizar o trabalho do programador. </p> 
+    </div>
+    <div class="container gerador text-center">
+        <div class="row text-center">
+            <div class="horizontal">
+                <input id="slider_top" class="slider sliderHorizontal"  type="range" min="0" max="100" value="50" >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-auto col-md-3 col-xl-3 text-right">
+                <input id="slider_left" class="slider sliderVertical" type="range" min="0" max="100" value="50" >
+            </div>
+            <div class="col-auto col-md-6 col-xl-6">
+                <div class="picotado">
+                    <div class="gerado"></div>
+                </div>
+            </div>
+            <div class="col-auto col-md-3 col-xl-3 text-left">
+                <input id="slider_right" class="slider sliderVertical" type="range" min="0" max="100" value="50" >
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-auto horizontal baixo">
+                <input id="slider_bottom" class="slider sliderHorizontal"  type="range" min="0" max="100" value="50" >
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+            <div class="valores col-md-7">
+                <div class="row text-center justify-content-center">
+                    <div class="col-md-auto caixa">
+                        <p>border-radius:</p>
+                    </div>
+                    <div class="col-md-auto caixa">
+                        <input  id="copiar" value="50% 50% 50% 50% / 50% 50% 50% 50%" readonly>
+                    </div>
+                    <div class="col-md-auto">
+                        <button onclick="copiar()">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>
