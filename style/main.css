@@ -41,7 +41,7 @@ body{
     padding-bottom: 20px;
 }
 .baixo{
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 5px;
 }
 .gerador{
@@ -87,6 +87,9 @@ button:hover{
 #copiar{
     border: none;
     width: 300px;
+}
+footer{
+    color: #ffffff;
 }
 @media screen and (max-width: 450px) {
     .sliderVertical {
